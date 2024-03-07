@@ -1,0 +1,112 @@
+body {
+  /* background-color: red; */
+  background-image: url("../images/barBackground.jpg");
+  background-size: cover;
+}
+
+.hero {
+  justify-content: center;
+  align-items: center;
+  padding-left: 10%;
+}
+
+h1 {
+  font-size: 5rem;
+  color: whitesmoke;
+  text-shadow: #fc0 1px 0 10px;
+}
+
+.viewportContainer {
+  height: 90dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-image: url("barBackground.jpg");
+  background-size: cover; */
+  /* opacity: 0.5; */
+  margin-top: -5%;
+}
+
+.gridContainer {
+  background-color: rgb(100, 99, 99);
+  opacity: 0.9;
+  height: 80%;
+  width: 80%;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 2fr 3fr;
+  grid-template-rows: 1fr 9fr;
+  border-radius: 10px;
+}
+
+.drinkHeader {
+  grid-column: span 2;
+  /* background-color: blueviolet; */
+  display: flex;
+  /* text-align: center; */
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/*
+.flexItemLeft {
+  background-color: violet; 
+  padding-left: 10px; 
+  flex: 80%;
+} */
+
+.drinkName {
+  color: white;
+  font-size: 2.5rem;
+  /* letter-spacing: 0.1ch; */
+  padding-left: 20px;
+}
+
+.flexItemRight {
+  /* background-color: bisque; */
+  /* padding: 10px; */
+  /* flex: 20%; */
+  margin-right: 20px;
+}
+
+/* #drinkName {
+  justify-content: left;
+  padding-left: 20px;
+  width: 80%;
+}
+
+#btnGetAnother {
+  position: relative;
+  float: right;
+} */
+
+.drinkImage {
+  /* background-color: aqua; */
+  /* display: flex;
+  justify-content: flex-start; */
+  padding-left: 20px;
+}
+
+.drinkThumbnail {
+  opacity: 1;
+}
+
+.drinkDetails {
+  background-color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  font-size: 1.5rem;
+  /* color: white; */
+}
+
+.drinkThumbnail {
+  max-width: 100%;
+  /* height: auto; */
+}
+
+.recipeInstructionsHeading {
+  font-weight: bold;
+}

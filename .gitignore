@@ -1,0 +1,10 @@
+# Folders
+node_modules
+
+# .md files except README.md
+*.md
+!README.md
+
+# log, env, 
+*.log
+*.env
